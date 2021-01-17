@@ -53,6 +53,7 @@ class Janela (QMainWindow):
         self.label_1.setStyleSheet('QLabel {font:bold; font-size:25px; color:#5882FA}')
 
     def botao2_click(self):
+        print('Botão 2 foi clicado')
         self.label_1.move(170, 50)
         self.label_1.setStyleSheet('QLabel {font:bold; font-size:25px; color:#FF8000}')
         self.label_1.setText(QualNome(self))

@@ -115,6 +115,7 @@ env.bak/
 venv.bak/
 Espaco de trabalho.code-workspace
 pyqt
+.idea/
 
 # Spyder project settings
 .spyderproject
